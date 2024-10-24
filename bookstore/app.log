@@ -1,0 +1,444 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\view\auth.py", line 35, in register
+    code, message = u.register(user_id=user_id, password=password)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 59, in register
+    token = jwt_encode(user_id, terminal)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 22, in jwt_encode
+    return encoded.decode("utf-8")
+           ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 15:22:35] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\view\auth.py", line 35, in register
+    code, message = u.register(user_id=user_id, password=password)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 59, in register
+    token = jwt_encode(user_id, terminal)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 22, in jwt_encode
+    return encoded.decode("utf-8")
+           ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 15:22:35] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\view\auth.py", line 35, in register
+    code, message = u.register(user_id=user_id, password=password)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 59, in register
+    token = jwt_encode(user_id, terminal)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 22, in jwt_encode
+    return encoded.decode("utf-8")
+           ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 15:22:35] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\view\auth.py", line 35, in register
+    code, message = u.register(user_id=user_id, password=password)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 59, in register
+    token = jwt_encode(user_id, terminal)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 22, in jwt_encode
+    return encoded.decode("utf-8")
+           ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 15:22:35] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 15:22:35] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\view\auth.py", line 35, in register
+    code, message = u.register(user_id=user_id, password=password)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 61, in register
+    token = jwt_encode(user_id, terminal)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 24, in jwt_encode
+    return encoded.decode("utf-8")
+           ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 00:37:02] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\view\auth.py", line 35, in register
+    code, message = u.register(user_id=user_id, password=password)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 61, in register
+    token = jwt_encode(user_id, terminal)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 24, in jwt_encode
+    return encoded.decode("utf-8")
+           ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 00:37:02] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\view\auth.py", line 35, in register
+    code, message = u.register(user_id=user_id, password=password)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 61, in register
+    token = jwt_encode(user_id, terminal)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 24, in jwt_encode
+    return encoded.decode("utf-8")
+           ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 00:37:02] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 00:37:02] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\view\auth.py", line 35, in register
+    code, message = u.register(user_id=user_id, password=password)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 61, in register
+    token = jwt_encode(user_id, terminal)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 24, in jwt_encode
+    return encoded.decode("utf-8")
+           ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:27:03] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\view\auth.py", line 35, in register
+    code, message = u.register(user_id=user_id, password=password)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 61, in register
+    token = jwt_encode(user_id, terminal)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 24, in jwt_encode
+    return encoded.decode("utf-8")
+           ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:27:05] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\view\auth.py", line 35, in register
+    code, message = u.register(user_id=user_id, password=password)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 61, in register
+    token = jwt_encode(user_id, terminal)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 24, in jwt_encode
+    return encoded.decode("utf-8")
+           ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:27:05] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:27:05] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\view\auth.py", line 35, in register
+    code, message = u.register(user_id=user_id, password=password)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 61, in register
+    token = jwt_encode(user_id, terminal)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 24, in jwt_encode
+    return encoded.decode("utf-8")
+           ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:29:56] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\view\auth.py", line 35, in register
+    code, message = u.register(user_id=user_id, password=password)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 61, in register
+    token = jwt_encode(user_id, terminal)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 24, in jwt_encode
+    return encoded.decode("utf-8")
+           ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:29:56] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\view\auth.py", line 35, in register
+    code, message = u.register(user_id=user_id, password=password)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 61, in register
+    token = jwt_encode(user_id, terminal)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 24, in jwt_encode
+    return encoded.decode("utf-8")
+           ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'decode'
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:29:56] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:29:56] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\view\auth.py", line 35, in register
+    code, message = u.register(user_id=user_id, password=password)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 78, in register
+    result = self.collection_users.find_one({"user_id": user_id}, {"token": 1})
+             ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'collection_users'
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:33:04] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\view\auth.py", line 35, in register
+    code, message = u.register(user_id=user_id, password=password)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 78, in register
+    result = self.collection_users.find_one({"user_id": user_id}, {"token": 1})
+             ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'collection_users'
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:33:04] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+ERROR:be.serve:Exception on /auth/register [POST]
+Traceback (most recent call last):
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\tools\anaconda\Lib\site-packages\flask\app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\view\auth.py", line 35, in register
+    code, message = u.register(user_id=user_id, password=password)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yanyan\study\×¨Òµ±ØÐÞ\´óÈýÉÏ\µ±´úÊý¾Ý¹ÜÀíÏµÍ³\project_bookstore\project1\bookstore\be\model\user.py", line 78, in register
+    result = self.collection_users.find_one({"user_id": user_id}, {"token": 1})
+             ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'collection_users'
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:33:04] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:33:04] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:35:07] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:35:07] "[35m[1mPOST /auth/login HTTP/1.1[0m" 530 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:35:10] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:35:10] "[35m[1mPOST /auth/login HTTP/1.1[0m" 530 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:35:13] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:35:13] "[35m[1mPOST /auth/login HTTP/1.1[0m" 530 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:35:13] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:44:52] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:44:52] "[35m[1mPOST /auth/login HTTP/1.1[0m" 530 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:44:54] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:44:54] "[35m[1mPOST /auth/login HTTP/1.1[0m" 530 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:44:57] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:44:57] "[35m[1mPOST /auth/login HTTP/1.1[0m" 530 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 01:44:57] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:15:27] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:15:27] "[35m[1mPOST /auth/login HTTP/1.1[0m" 530 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:15:30] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:15:30] "[35m[1mPOST /auth/login HTTP/1.1[0m" 530 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:15:33] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:15:33] "[35m[1mPOST /auth/login HTTP/1.1[0m" 530 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:15:33] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:41:06] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:41:06] "[35m[1mPOST /auth/login HTTP/1.1[0m" 530 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:41:10] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:41:10] "[35m[1mPOST /auth/login HTTP/1.1[0m" 530 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:41:13] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:41:13] "[35m[1mPOST /auth/login HTTP/1.1[0m" 530 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:41:13] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:42:08] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:42:08] "[35m[1mPOST /auth/login HTTP/1.1[0m" 528 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:42:11] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:42:11] "[35m[1mPOST /auth/login HTTP/1.1[0m" 528 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:42:14] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:42:14] "[35m[1mPOST /auth/login HTTP/1.1[0m" 528 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:42:15] "GET /shutdown HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:50:04] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 12:50:05] "GET /shutdown HTTP/1.1" 200 -
